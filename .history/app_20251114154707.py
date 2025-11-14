@@ -1,12 +1,5 @@
-import os
-import subprocess
-import hashlib
-import shutil
-import time
-from flask import Flask, request, jsonify, render_template_string
-from threading import Thread
-from datetime import datetime
-from flask_cors import CORS
+from flask import Flask, request, jsonify
+
 app = Flask(__name__)
 
 CORS(app)
